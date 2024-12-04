@@ -1,0 +1,46 @@
+CSS 
+    inline CSS inthe tag
+    internal CSS in <style> tag
+    external css external file
+
+
+
+inline
+    style (attribute)="property:value;property:value"
+
+internal css
+    1:open styletag <style>
+    2:select elements
+    3:{}
+    4:property:value
+
+
+externalcss
+    in seperate file
+    extenction=.css
+    link=>link rel="stylesheet"href
+
+
+color:;
+text-align:"":
+text-decoration: underline;,overline,linethrough
+
+
+
+css units
+=-------=
+    Absolute units
+    Relative units
+
+
+selector         =>
+                id
+                class
+
+
+
+    id=> syntax #idname
+        no repitation
+    class=> syntax.calssname
+        
+

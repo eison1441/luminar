@@ -1,0 +1,48 @@
+it is used for pattern validation 
+
+re==>regular expression
+
+finditer()
+
+
+    def finditer()===>syntax variable=finditer("pattern",input mixture)
+
+
+    from re import finditer
+
+    return as itrator [obj(start,group),obj(start,group),obj(start,group),obj(start,group)........]
+    Return an iterator over all non-overlapping matches in the
+    string. For each match, the iterator returns a Match object.
+    Empty matches are included in the result.
+    finditer("ak")                          ==>ak(find grouped ak )
+    finditer("[ak]")                        ==>find a or k
+    finditer("[a-k]")                       ==>find a to k lowercase only 
+    finditer("[A-K]")                       ==>find A to K uppercase only
+    finditer("[a-kA-K]")                    ==> find both upper and lowercase
+    finditer("[0-9]")            or"\d"     ==>find 0  to 9 
+    finditer("[^ak]")                       ==>EXCLUDE a and k
+    finditer("[a-kA-K0-9]")      or"\w"     ==> alphanumeric
+    finditer("[^0-9]")           or"\D"     ==>EXCLUDE digit
+    finditer("[^a-kA-K0-9]")     or"\W"     ==>find special case
+    finditer("\s")                          ==>white space
+    finditer("\W")                          ==>EXCLUDE white space
+    finditer("\W+")                         ==>find word
+    finditer("a{2})                         ==>{}is the qty of a
+    finditer("a{1,2})                       ==>{}is the qty of a left =minimum right of , =maximum
+    finditer("a*)                           ==>{}any of a 
+    
+fullmatch()
+    a Match object, or None if no match was found.
+
+    syntax variable=finditer("pattern",input mixture)
+    from re import fullmatch
+    return as None
+
+* = any of
+? = optional
++ = atlest one 
+
+
+findall()
+   Returns: A list of all matches found. If no matches are found, it returns an empty list.
+   syntax ==> re.findall(pattern, string).

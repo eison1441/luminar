@@ -1,0 +1,149 @@
+-- create database augdb;------>create database
+-- show database;-------------->display database
+-- use augdb------------------->use database
+
+
+
+
+
+
+create table student(
+						id int primary key auto_increment,}
+                        name varchar(100) not null,--------------------------------------->create table 
+						course varchar(100) not null,-----}
+                        total int not null----------------------------------------}
+					);----------------------------------------}
+
+
+
+
+
+
+
+insert into table_name (field,field,field) value(value1,value2,value3)--------->insert values into table
+
+
+select*from table_name ---------------> display table
+
+
+
+select field from table_name------------------>display field from table
+
+select field,field from table_name------------------>display 2field from table
+
+distinct--------------------->used to remove duplication
+
+eg:-->   select distinct course from student;
+               {--------}
+
+
+
+where -------------------->used to select a particular field
+
+
+Eg-> select * from student where course="Django";
+                          {----->Syntax<-------}
+
+
+
+
+
+
+
+
+
+aggregate functions in sql
+
+*max
+*min
+*avg
+*Count
+*sum
+
+
+
+eg->>
+		select  min(total) from student;
+select max(total) from student;
+select  avg(total) from student;
+select  count(total) from student;
+
+select max(total) from student;
+
+
+
+nested queris
+
+
+
+select max(total) from student where total !=(select max(total) from student);
+
+select name from student where total =(select max(total) from student);
+select name from student where total!=(select max(total) from student where total !=(select max(total) from student));
+select name from student where total=(select max(total) from student where total !=(select max(total) from student));
+
+
+
+
+
+update
+------
+
+
+
+
+
+group by
+----------
+
+
+select course,count(*) as stcount from student group by course;
+                                               --------
+
+
+
+sorting in sql
+---------------
+
+order by 
+
+
+
+
+
+
+select course,count(*) as studcount from student group by course order by studcount desc;
+
+
+
+table update
+------------
+alter table
+
+
+eg--- alter table student add column cgpa varchar(30) default 5;
+
+
+syntax  alter table table name 
+
+
+
+delete
+------
+
+truncate syntax --= truncate table_name;
+drop 
+
+predefined options
+------------
+
+
+
+		enum( option 1,option 2,......)
+
+
+
+rename
+------
+
+rename table syntax= old table name to new table name

@@ -1,0 +1,97 @@
+HTML 
+=--=
+
+Hyper Text MarkUp Language
+
+
+front end
+used to make webpage structure
+
+
+5/11/2024
+<title>=->set title in the tab <head>
+<p>
+
+
+two type of elements
+1>block elements
+2>inline elements
+
+BLOCK elements
+=------------=
+(display as left to right full width)
+eg:>
+<h1><h2>,<p>
+
+Inline elements
+=-------------=
+Eg:
+(display content width)
+<span>,<label>
+
+<strong>: work as bold
+<em>:work as <i> tag
+
+
+semantic tags=>
+eg:
+    <nav>=>header
+    <aside> (left or right)
+    <main>
+    <section>
+    <footer>=>footer
+
+
+img tag:
+    src=>source of image
+    alt=>alternate text
+
+ol tag
+attr>li(list)
+
+    type="A"> 
+
+table=>
+    <tr>-table row
+    <td>=>table data
+    <th=>table heading
+
+
+<form>
+    action=>(function)
+    label=>uneditable text
+
+
+
+
+input tag
+
+type= is a attribute of input tag
+placeholder >used to create a watermark
+
+
+select<>
+
+text area=>to write somting big
+attri>rows and cols
+cols=width
+rows=height
+
+
+props
+-====-
+id=>
+class=>
+
+
+
+for=>set focus
+
+
+select=
+=-----=
+dropdown list
+option =>is the child tag of select
+
+<field set> =>setting border in html code
+<legend>=>

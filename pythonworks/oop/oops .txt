@@ -1,0 +1,115 @@
+oops concept
+=----------=
+
+key word : 
+=------=
+class ==>blueprint,model
+
+i=>attributes  (__init__)
+ii=>methords
+
+     Objects take
+     up space in the memory and have an associated address like a
+     record in Pascal,
+
+abstraction =>>hiding implimentation deatils
+
+
+object :
+=----=
+
+real world entites
+ 
+self.=> used to point an object
+
+
+
+
+constructor==>   
+
+     1.constructor is used to iinitialize the attributes of the object.  
+     2.__init__ iinitialize instance of boject
+     3.automaicaly invoke
+
+
+
+
+28/10/2024
+
+
+string reprentation of a string   ==> methord =>__str__(self)
+
+
+
+inheritance
+=---------=
+
+syntax =>class Childclass(Parent class)
+
+super =>to refer Parent class syntax=>super().__init__(attributes)
+
+wishing intro topic documentation
+
+
+single inheritance=>first programe
+
+multilevel=> class(a)
+             class(b(a))
+             class(c(b))
+
+
+multiple=>class(a)
+          Class(b)
+          class(c(a,b))
+
+
+
+          Gowun Batang
+
+
+class Grandparent:
+    def m1(self):
+        print("Grand parent class m1 method")
+class Parent:
+    def m1(self):
+        print("parent class m2 method")
+
+class Child(Parent,Grandparent):
+    def m3(self):
+        print("Child class m3 method")
+
+
+child_isinstance1=Child()
+child_isinstance1.m1()
+# child_isinstance1.m2()
+child_isinstance1.m3()
+
+if there are methods of same (m1) name then the first class given for inheritance will be taken  
+
+
+
+syntax==>set of rules
+
+
+
+
+POLYMORPHISAM:=> morethan one form or manyy form
+=-----------=
+
+
+:>method overloading
+:>method overriding
+
+
+method overloading==>same name and different number of parameters (it is not supported in python)
+                     --------------------------------------------
+
+
+method overriding==>
+     rule 1               minimum 2 class 
+     rule 2               inherit the class
+     rule 3               same signature                    
+                     
+
+
+                     

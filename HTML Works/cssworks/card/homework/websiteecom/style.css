@@ -1,0 +1,148 @@
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar i {
+    position: absolute;
+    left: 10px;
+    font-size: 1rem; 
+  }
+  
+  .search-input {
+    padding-left: 30px; 
+    width: 100%;
+    height: 38px; 
+  }
+  .head {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background: url("./images/pexels-cottonbro-5990031.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* .head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+} */
+
+.head .y1 {
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    padding: 70px;
+}
+
+.minicardimg img{
+    width: 300px;
+    height: 280px;
+    margin-left: 75%;
+    margin-top: -190px;
+    /* box-shadow: 5px  5px 10px rgb(255, 255, 255) ; */
+    border: none;
+}
+.minicard{
+    background-color: whitesmoke;
+    margin-top: 80px;
+    width: 75%;
+    height: 200px;
+    color: black;
+
+}
+/* .carousel-item img{
+    height: 500px;
+    opacity: 0.25;
+    background: rgb(0, 0, 0);
+    
+}
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.90); /* Semi-transparent black */
+    /* z-index: 1; Below the fixed card but above the images */
+  /* } */
+
+  /* Ensure carousel images are visible underneath the overlay */
+  /* .carousel-inner img {
+    opacity: 1; /* Full opacity for images */
+   
+.nav {
+      border-bottom: 2px solid #fff; 
+      /* padding-bottom: 8px; Optional: space between text and border */
+      width: 100%;
+} 
+.nav-iteml{
+  margin-right: 87%;
+  margin-bottom: -60px;
+}
+.logo{
+  display: flex;
+  margin-right: -30px;
+}
+.navbar-brand{
+  margin-right: 70px;
+}
+.card {
+  background-color: #f8f9fa;
+  border-color: #e0e0e0;
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-text {
+  color: #4b3a3a;
+}
+.card-header{
+  height: 70px;
+  
+  
+}
+.card-footer{
+  height: 90px;
+}
+.col-3{
+  margin-left: -37px;
+  margin-right: 37px;
+}
+.card {
+  border: none; /* Removes the outer border of the card */
+  box-shadow: none; /* Removes any shadow around the card, if present */
+}
+
+.card-header, .card-footer {
+  border: none; /* Removes borders from header and footer sections */
+}
+
+.two-color{
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      white 0%,
+      white 50%,
+      aqua 50%,
+      aqua 100%
+  );
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.mainbody{
+  text-align: center;
+}

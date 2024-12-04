@@ -1,0 +1,49 @@
+KEY WORDS
+-------------
+
+
+.TRY
+.EXCEPT
+.FINALLY
+.RAISE
+
+
+
+
+TRY
+-----
+
+syntax-->try:
+            doubtful code
+
+
+EXCEPT
+----------(when the try is true then the except  will work)
+
+syntax-->except:
+                handling code
+
+
+FINALLY:  
+------------
+
+with or without error FINALLY will work
+also known as cleanup block
+
+
+syntax-->finally:
+                 
+
+Exception
+---------------
+
+
+for picking errors
+
+
+
+
+RAISE
+------------
+
+to create a coustom error

@@ -1,0 +1,23 @@
+#first{
+    color: red;
+    text-align: center;
+}
+#second{
+
+    color: green;
+    text-align: center;
+}
+.text-danger{
+    color: red;
+  
+}
+
+.text-success{
+    color:green;
+   
+
+}
+.text-dec-underline{
+    text-decoration: underline;
+
+}

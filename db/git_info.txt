@@ -1,0 +1,99 @@
+  Git
+-=---=-
+
+1) (remote location) remote repository
+
+2) local workspace (location of devs)
+
+git clone :- exact copy of file in the remote location to local workspace
+git push  :- get the change from  local repository to remote repository
+git pull  :- get the change from  remote repository to local workspace
+
+staging area (found in local workspace)
+-=--------=-
+
+git add :-get the change from  local workspace to staging area
+
+	syntax :- git add "project_name"
+
+
+git add-A :- get all change from  local workspace to staging area or (get all untracked files to staging area)
+
+
+	syntax :- git add-A 
+
+
+/local repository\
+-=--------------=-
+
+git commit  :-  get the change from  staging area to local repository
+
+	syntax :- git commit-m "commit msg"
+
+
+
+
+git add -> git commit-> git push(vanta -> sutta-> setha -> rep<-)
+
+
+
+git init - Initialize git repository
+
+
+
+
+git config --list -shows git details
+git config --global user.name "user name"
+git config --global user.email "user email"
+
+git status:- list all untracked files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commands-
+git clone 
+git push  
+git pull 
+git init
+git add
+git add-A
+git commit-m
+git config --list 
+git config --global user.name "user name"
+git config --global user.email "user email"

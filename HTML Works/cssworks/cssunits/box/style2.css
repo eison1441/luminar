@@ -1,0 +1,28 @@
+.border{
+    border: 3px black solid;
+}
+.box{
+    background-color: green;
+    width: 80%;
+    height: 200px;
+    color: yellowgreen;
+    border: 3px black solid;
+}
+.box2{
+    background-color: violet;
+    width: 50%;
+    color: black;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px black solid;
+}
+.box3{
+    border: 3px black solid;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    color: yellowgreen;
+    background-color: black;
+    margin-top: 10px;
+}

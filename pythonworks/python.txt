@@ -1,0 +1,4 @@
+variable{
+    start with an alphabet
+    any number of alphabet,digits,.......
+}

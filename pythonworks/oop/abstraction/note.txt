@@ -1,0 +1,11 @@
+abstraction =>hiding implimentation deatils
+   ABC      =>abstract base class
+
+
+abstract_method =>class without definitation is known as abstract class
+                rule:1 =>must decorate with decorator class
+                rule:2 =>inherit with ABC
+                rule:3 =>
+
+
+to set a attribute to private="__" Eg>ab3 program __mpin

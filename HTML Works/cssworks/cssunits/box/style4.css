@@ -1,0 +1,19 @@
+.border{
+    border: 2px black solid;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 2px black solid;
+}
+.box1{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.box2{
+    margin-left: auto;
+}
+

@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: url('./images/background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px; /* Optional: Adds rounded corners */
+padding: 20px; /* Optional: Add padding for content inside */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+}

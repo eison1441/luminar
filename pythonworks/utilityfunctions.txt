@@ -1,0 +1,32 @@
+print("message") =>print a message
+
+type(object) => return data type of object
+
+input("message") =>read value from console
+
+len(obj)=> used to find the length of a string
+
+round(obj, presition )
+
+range( start stop end)
+
+
+min =>smallest number 
+
+max()=> maximum value
+
+data type 
+numeric=>int,float,string
+sequence=>string
+boolean=>bool
+collection=>list,set,tuple,dictionary
+enumarate()=> USED TO RETURN INDEX AND ELEMENT!!!!
+
+
+
+
+*args ==> any number of arguments 
+    stored as tuple
+
+**kwargs ==>key word arguments
+     stored as dictionary

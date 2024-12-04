@@ -1,0 +1,11 @@
+.navbar.bg-dark {
+    background-color: #000000 !important; 
+    border-bottom: 2px solid #000000;
+}
+.navbar .nav-link {
+    font-weight: bold; 
+}
+body {
+    background-color: #000; 
+    color: #fff; 
+}

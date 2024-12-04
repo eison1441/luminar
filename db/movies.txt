@@ -1,0 +1,56 @@
+movies
+
+
+Here is a curated list of 20 movies across Malayalam, Tamil, Hindi, Telugu, and Kannada languages, spanning the genres of action, comedy, love drama, and fiction. Each movie includes its runtime, rating (out of 5), and release year:
+
+### Malayalam Movies
+1. **Premam** (2015) - Love Drama  
+   Runtime: 164 mins | Rating: 4.5  
+2. **Drishyam** (2013) - Thriller/Drama  
+   Runtime: 160 mins | Rating: 4.7  
+3. **Minnal Murali** (2021) - Action/Fiction  
+   Runtime: 159 mins | Rating: 4.2  
+4. **Bangalore Days** (2014) - Comedy/Drama  
+   Runtime: 171 mins | Rating: 4.4  
+
+### Tamil Movies
+5. **Baahubali: The Beginning** (2015) - Action/Fiction  
+   Runtime: 159 mins | Rating: 4.6  
+6. **Alaipayuthey** (2000) - Love Drama  
+   Runtime: 156 mins | Rating: 4.3  
+7. **Soorarai Pottru** (2020) - Drama  
+   Runtime: 149 mins | Rating: 4.8  
+8. **Vikram Vedha** (2017) - Action/Thriller  
+   Runtime: 147 mins | Rating: 4.4  
+
+### Hindi Movies
+9. **Dilwale Dulhania Le Jayenge** (1995) - Love Drama  
+   Runtime: 190 mins | Rating: 4.6  
+10. **3 Idiots** (2009) - Comedy/Drama  
+    Runtime: 170 mins | Rating: 4.7  
+11. **War** (2019) - Action/Thriller  
+    Runtime: 154 mins | Rating: 4.2  
+12. **Krrish** (2006) - Action/Fiction  
+    Runtime: 175 mins | Rating: 4.1  
+
+### Telugu Movies
+13. **Arjun Reddy** (2017) - Love Drama  
+    Runtime: 186 mins | Rating: 4.3  
+14. **Pushpa: The Rise** (2021) - Action/Drama  
+    Runtime: 179 mins | Rating: 4.4  
+15. **Eega** (2012) - Fiction/Drama  
+    Runtime: 134 mins | Rating: 4.5  
+16. **Mahanati** (2018) - Drama  
+    Runtime: 177 mins | Rating: 4.6  
+
+### Kannada Movies
+17. **KGF: Chapter 1** (2018) - Action/Drama  
+    Runtime: 156 mins | Rating: 4.7  
+18. **Kirik Party** (2016) - Comedy/Drama  
+    Runtime: 165 mins | Rating: 4.3  
+19. **Lucia** (2013) - Fiction/Drama  
+    Runtime: 135 mins | Rating: 4.6  
+20. **Charlie 777** (2022) - Love/Drama  
+    Runtime: 136 mins | Rating: 4.5  
+
+Would you like more details about any of these movies?

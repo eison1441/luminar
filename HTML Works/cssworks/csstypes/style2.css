@@ -1,0 +1,14 @@
+#first{
+    color: red;
+    text-align: center;
+}
+
+#second{
+    color:green;
+    text-align:center
+}
+span{
+    text-align: end;
+    color: saddlebrown;
+    text-decoration: line-through;
+}

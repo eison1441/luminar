@@ -1,0 +1,30 @@
+.notnav{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh; 
+/* Set height to full viewport height */
+    margin: 0; /* Remove default margins */
+}
+
+.subhead img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sub-under p {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+

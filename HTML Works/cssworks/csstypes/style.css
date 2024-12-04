@@ -1,0 +1,11 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: overline underline;
+
+}
+span{
+    color: green;
+    text-decoration: line-through;
+    text-align: center;
+}

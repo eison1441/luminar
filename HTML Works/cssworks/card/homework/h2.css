@@ -1,0 +1,287 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-body {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.body-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.body-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.heading {
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.ditails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ditail {
+    flex: 1 1 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ditail .heading {
+    font-weight: bold;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.stat p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    background-color: #f0f0f0;
+}
+
+.main-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px; 
+    flex-direction: row;
+}
+
+.body-image {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.body-image img {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+}
+
+.heading {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+}
+
+.sub-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.para {
+    margin-bottom: 15px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-ditails {
+    flex: 1 1 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ans {
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px; 
+    margin-top: 20px; 
+}
+
+.stat p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+.detail{
+    display: flex;
+}*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.body-image {
+    flex: 0 0 200px; /* Fix image width */
+    margin-right: 30px;
+    text-align: center;
+}
+
+.body-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Make the image fit the circle */
+}
+
+.sub-body {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.para {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.ditails {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.p-ditail {
+    flex: 1 1 200px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.p-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ans {
+    color: #777;
+}
+
+.detail {
+    margin-bottom: 10px;
+}
+
+.detail p {
+    margin: 5px 0;
+}
+
+.detail strong {
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px; /* Responsive layout */
+}
+
+.stat p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stat p:last-child {
+    color: #777;
+}
+.p-ditail,.ans{
+    display: flex;
+}
