@@ -12,3 +12,5 @@ def mrg_interval(intervals):
 interval= [[1,3],[2,6],[8,10],[15,18]]
 merged_intervals=mrg_interval(interval)
 print(merged_intervals)
+
+
